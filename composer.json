@@ -1,0 +1,37 @@
+{
+  "name": "hollow3464/spreadsheet-builder",
+  "type": "library",
+  "version": "0.1.0",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Hollow3464\\SpreadsheetBuilder\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "David Chamorro",
+      "email": "daved3464@gmail.com"
+    }
+  ],
+  "config": {
+    "sort-packages": true,
+    "allow-plugins": {
+      "pestphp/pest-plugin": true
+    }
+  },
+  "scripts": {
+    "format": "vendor/bin/pint",
+    "lint": "vendor/bin/phpstan",
+    "test": "vendor/bin/pest",
+    "test:coverage": "XDEBUG_MODE=coverage vendor/bin/pest --coverage"
+  },
+  "require": {
+    "phpoffice/phpspreadsheet": "^4.0"
+  },
+  "require-dev": {
+    "laravel/pint": "^1.21",
+    "pestphp/pest": "^3.7",
+    "phpstan/phpstan": "^2.1"
+  }
+}
