@@ -1,7 +1,7 @@
 # Spreadsheet Builder
 
 This is a small wrapper around the powerful
-[https://github.com/PHPOffice/PhpSpreadsheet](PhpSpreadsheet)
+[PhpSpreadsheet](https://github.com/PHPOffice/PhpSpreadsheet)
 package that allows to quickly build spreadsheets using a fluent builder.
 
 ## Usage
